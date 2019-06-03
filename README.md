@@ -5,7 +5,7 @@ A minimalist publish-subscribe protocol
 - Python 3.6+
 
 ## Usage
-- Start the PubSub service first by running ```pub_sub_service.py```. Don't forget to change the host-port tuple of the address.
+- Start the PubSub service first by running ```pub_sub_service.py```. Don't forget to change the host-port tuple of the address to match your spec.
 
 - Create a pub_sub client: 
   ```c = PubSub(host='localhost', port=8008)```
